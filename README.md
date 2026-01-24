@@ -167,7 +167,7 @@
 - [vim-devicons](https://github.com/ryanoasis/vim-devicons)
 - [vim-css-color](https://github.com/ap/vim-css-color)
 - [vim-signature](https://github.com/kshenoy/vim-signature)
-- [Nerd Fonts](https://www.nerdfonts.com/font-downloads)
+- [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/AnonymousPro)
 
 ``git clone https://github.com/mhinz/vim-startify.git ~/.vim/bundle/vim-startify``
 
@@ -182,7 +182,8 @@
 ``git clone https://github.com/kshenoy/vim-signature.git ~/.vim/bundle/vim-signature``
 
 
-
+``curl -fLo ~/.local/share/fonts/"AnonymicePro Nerd Font Regular.ttf" \
+  https://raw.githubusercontent.com/ryanoasis/nerd-fonts/master/patched-fonts/AnonymousPro/Regular/AnonymiceProNerdFont-Regular.ttf``
 
 #### Файлы
 

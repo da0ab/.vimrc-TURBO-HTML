@@ -18,7 +18,13 @@ mkdir -p ~/.vim/scripts  # Создаем директорию scripts
 
 # Клонируем необходимые репозитории
 echo "Клонируем vim-pathogen в autoload..."
-git clone https://github.com/tpope/vim-pathogen.git ~/.vim/autoload/pathogen.vim
+curl -LSso ~/.vim/autoload/pathogen.vim \
+    https://raw.githubusercontent.com/tpope/vim-pathogen/master/autoload/pathogen.vim
+
+# Клонируем шрифт AnonymicePro
+echo "Клонируем  шрифт AnonymicePro..."
+curl -fLo ~/.local/share/fonts/"AnonymicePro Nerd Font Regular.ttf" \
+  https://raw.githubusercontent.com/ryanoasis/nerd-fonts/master/patched-fonts/AnonymousPro/Regular/AnonymiceProNerdFont-Regular.ttf
 
 echo "Клонируем плагины в bundle..."
 git clone https://github.com/mhinz/vim-startify.git ~/.vim/bundle/vim-startify
